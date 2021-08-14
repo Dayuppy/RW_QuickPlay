@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Quick Play</name>
+	<author>Dayuppy</author>
+	<url>https://github.com/Dayuppy/RW_QuickPlay</url>
+    <packageId>Dayuppy.QuickPlay</packageId>
+	<description>Adds a Quick Play button to the main menu allowing for faster new game setup with saved settings.</description>
+    <supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<modDependenciesByVersion>
+		<v1.3>
+			<li>
+				<packageId>UnlimitedHugs.HugsLib</packageId>
+				<displayName>HugsLib</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=818773962</steamWorkshopUrl>
+			</li>
+		</v1.3>
+	</modDependenciesByVersion>
+	<loadAfter>
+		<li>UnlimitedHugs.HugsLib</li>
+	</loadAfter>
+</ModMetaData>
